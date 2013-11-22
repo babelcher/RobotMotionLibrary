@@ -1,9 +1,9 @@
 # RobotMotion
-Library for making the robot move. Example code included in main.c.
+Library for making the robot move. Example code included in example.c.
 
 ## General Notes
 The right motor signal and the left motor signal are opposite of eachother.
-The robot will move in the desired direction for however long `_delay_cycles()` is called after that function call as seen in main.c
+The robot will move in the desired direction for however long `_delay_cycles()` is called after that function call as seen in example.c. All movement of the motors is at a 50% duty cycle.
 
 ## Functions
 - `void InitPinsOut()`
